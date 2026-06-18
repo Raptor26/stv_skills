@@ -1,5 +1,5 @@
 ---
-name: git-commiting-russian
+name: git-committing-russian
 description: "Создает сообщение фиксации на русском язык согласно стилю commitizen"
 ---
 
