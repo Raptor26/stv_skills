@@ -8,7 +8,7 @@
 
 ```text
 stv/skills/
-  git-commiting-russian/
+  git-committing-separately/
     SKILL.md
   ...
 ```
@@ -17,8 +17,8 @@ stv/skills/
 
 ```markdown
 ---
-name: git-commiting-russian
-description: "Создает сообщение фиксации на русском языке согласно стилю commitizen"
+name: git-committing-separately
+description: "Разбивает незафиксированные изменения на несколько независимых сгруппированных коммитов"
 ---
 
 # Название skill
@@ -60,7 +60,7 @@ kimi --skills-dir /Users/raptor/.kimi-code/stv/skills
 После подключения skill вызывается по имени из YAML frontmatter через инструмент `Skill`. Например:
 
 ```text
-Skill: git-commiting-russian
+Skill: git-committing-russian
 ```
 
 ## Добавление нового skill
